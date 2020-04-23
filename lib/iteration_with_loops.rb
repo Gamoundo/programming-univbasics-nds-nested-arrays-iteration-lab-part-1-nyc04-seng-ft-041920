@@ -8,8 +8,9 @@ while i < src.length
    while x < src[i].length
    if x.even?
      p x
+   x+=1
    end
-   x += 1
+   
  end
  i +=1
 end
