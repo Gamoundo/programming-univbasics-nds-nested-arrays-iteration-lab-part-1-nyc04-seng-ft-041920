@@ -11,7 +11,7 @@ while i < src.length
    end
    x += 1
  end
- 
+ i +=1
 end
-i += 1
+
 end
