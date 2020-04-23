@@ -8,9 +8,9 @@ while i < src.length
    while x < src[i].length
    if src[i][x].even?
      p src[i][x]
-   x+=1
+  
    end
-   
+   x += 1
  end
  i +=1
 end
