@@ -6,8 +6,8 @@ i = 0
 while i < src.length
    x = 0 
    while x < src[i].length
-   if x.even?
-     p x
+   if src[i][x].even?
+     p src[i][x]
    x+=1
    end
    
